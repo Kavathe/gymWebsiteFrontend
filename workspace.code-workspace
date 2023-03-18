@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\hp\\vsjava"
+		},
+		{
+			"path": "c:\\Users\\hp\\Desktop\\webdevelopment"
+		}
+	],
+	"settings": {
+		"editor.mouseWheelZoom": true,
+		"liveServer.settings.multiRootWorkspaceName": "webdevelopment"
+	}
+}

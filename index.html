@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+
+    
+    <style>
+        body{
+        
+            padding:0px;
+            background-image:url('https://images.unsplash.com/photo-1636007596622-90bf5679f5dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Ym9keWJ1aWxkaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60');
+            background-size: 1250px 1000px;
+            
+
+           
+           
+
+            
+        }
+        .left{
+          /* border:3px solid rgb(130, 124, 124);  */
+          color:aqua;
+          position:absolute;
+          left:34px;
+          top:20px;
+          
+          
+
+        }
+        .left img{
+            width:90px;
+            position:relative;
+            left:17px;
+            
+        }
+        .left p{
+            font-size:25px;
+            margin:0px 0px;
+            padding:0px 0px;
+            text-align: center;
+            
+        }
+        .mid{
+            font-family: 'Baloo Bhaijaan 2', cursive;
+        /* border:3px solid red; */
+        color:aqua;
+        display:block;
+        width:730px;
+        margin:20px auto;
+        
+
+        
+            
+        
+        
+        }
+        .right{
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            position:absolute;
+            right:20px;
+            top:30px;
+         /* border:3px solid gray; */
+         color:aqua;
+         
+        }
+        a:hover{
+            color:aqua;
+        }
+        .navbar{
+            display:inline-block;
+        }
+        .navbar li{
+            display:inline-block;
+        }
+        .navbar li a{
+            color:beige;
+            text-decoration:none;
+            padding:0px 20px;
+            font-size: 20px;
+        }
+        .navbar li a:active{
+            text-decoration:underline;
+            color:gray;
+        }
+        .navbar li a:hover{
+            color:gray;
+        }
+        .btn{
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            margin:0px 6px;
+           background-color:rgb(131, 117, 213);
+           padding: 4px 15px;
+           border:3px solid gray;
+           border-radius:5px;
+           font-size:15px;
+           cursor:pointer;
+           
+        }
+        .btn:hover{
+            background-color:rgb(7, 90, 135);
+        }
+        .cont{
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            color:aqua;
+            width:400px;
+            font-size:15px;
+            margin-top:80px;
+            margin-left:0px;
+            /* border:3px solid gray; */
+            padding:0px 0px;
+            border-radius:10px;
+            
+            
+        }
+        .form-group input{
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            text-align:center;
+            display:block;
+            margin:auto;
+            padding:1px;
+            border:3px solid gray;
+            margin-top:8px;
+            border-radius:5px;
+            width:300px;
+            font-size:16px;
+
+        }
+        .cont h1{
+          display:block;
+          text-align:center
+        }
+        .form-group .btn{
+            display:block;
+            width:150px;
+            margin: 5px auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe20YXBNVqnAa9ZdP92hpeDXuho03GL_RTWQ&usqp=CAU alt="image not found">
+       <p>Shiv Fitness</p>
+    </div>
+    <!-- mid box for navbar -->
+    <div class="mid">
+    
+    <ul class="navbar">
+        <li> <a href="#">Home</a></li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Fitness Calculater</a></li>
+    <li><a href="#">contact us</a></li>
+    
+</ul>
+</div>
+        <!-- right box for buttons -->
+        <div class="right">
+      <button class="btn"> Get Tips</button>
+      <button class="btn">Book Tranie</button>
+        </div>
+        </header>
+        <div class="cont">
+            <h1>register to the gym now</h1>
+            
+        <form action="php" >
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <div class="form-group">
+            <button class="btn">submit</button>
+            </div>
+        </form>
+        </div>
+    
+</body>
+</html>
